@@ -1,0 +1,15 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "monorepo": {
+    "services": {
+      "rag-backend": {
+        "root": "backend",
+        "configPath": "backend/railway.toml"
+      },
+      "rag-frontend": {
+        "root": "frontend",
+        "configPath": "frontend/railway.toml"
+      }
+    }
+  }
+}
