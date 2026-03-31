@@ -1,4 +1,4 @@
-const API_BASE = window.BACKEND_URL || 'http://localhost:3000/api';
+const API_BASE = '/api';
 
 document.getElementById('upload-btn').addEventListener('click', async () => {
   const fileInput = document.getElementById('file-input');
